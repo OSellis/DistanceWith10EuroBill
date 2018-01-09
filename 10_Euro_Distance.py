@@ -215,6 +215,6 @@ plt.title('Original Image'), plt.xticks([]), plt.yticks([])
 distance = distance_to_camera(KNOWN_WIDTH, FOCAL, width)
 
 # Display results to the user
-print("Distance to camera: "+str(distance)+"cm")
+print("Distance to camera: "+str(distance)+"mm")
 
 plt.show()
